@@ -1,0 +1,24 @@
+artifacts_root: artifacts
+
+artifacts:
+  data:
+    train_image_path: '${artifacts_root}/data/train_images'
+    test_image_path: '${artifacts_root}/data/test_images'
+    train_csv_path: '${artifacts_root}/data/train.csv'
+    test_csv_path: '${artifacts_root}/data/test.csv'
+
+  model:
+    model_path: '${artifacts_root}/models/model.pkl'
+  
+  logs:
+    log_path: '${artifacts_root}/logs'
+
+  output:
+    predictions_path: '${artifacts_root}/output/predictions.csv'
+    
+
+# data_ingestion:
+#   root_dir: artifacs/data_ingestion
+#   source_url: https://raw.githubusercontent.com/alexeygrigorev/mlbookcamp-code/master/chapter-02-car-price/data.zip
+#   local_data_file: artifacts/data_ingestion/data.zip
+#   unzip_dir: artifacts/data_ingestion

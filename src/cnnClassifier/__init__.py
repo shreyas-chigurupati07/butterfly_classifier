@@ -6,10 +6,14 @@ import logging
 logging_str = '[%(asctime)s: %(levelname)s: %(module)s: %(message)s]'
 
 
-log_dir = 'logs'
+log_dir = 'artifacts/logs'
 log_filepath = os.path.join(log_dir, 'running_logs.log')
-os.makedirs(log_dir, exist_ok=True)
 
+try:
+    os.makedirs(log_dir, exist_ok=True)
+except Exception as e:
+    print(f"Error creating log directory: {e}")
+    sys.exit(1)
 
 logging.basicConfig(
     level=logging.INFO,
@@ -20,4 +24,5 @@ logging.basicConfig(
     ]
 )
 
-logger = logging.getLogger('cnnClassifierLogger')
+# Create a logger instance
+logger = logging.getLogger(__name__)
