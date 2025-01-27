@@ -172,7 +172,9 @@ cython_debug/
 
 
 # Data Files
-artifacts/data/
+artifacts/data_ingestion/data/
 
 !artifacts/logs/
 !artifacts/logs/*.log
+
+*.zip
