@@ -45,3 +45,8 @@
 [2025-01-29 09:55:33,925: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
 [2025-01-29 09:55:33,995: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
 [2025-01-29 09:55:34,073: INFO: main: >>>>>>>>>> Prepare Base Model Stage - Completed <<<<<<<<<<]
+[2025-01-29 10:21:09,237: INFO: common: YAML file loaded successfully: config/config.yaml]
+[2025-01-29 10:21:09,239: INFO: common: YAML file loaded successfully: params.yaml]
+[2025-01-29 10:21:09,240: INFO: common: Directory created successfully: artifacts]
+[2025-01-29 10:21:09,241: INFO: common: Directory created successfully: artifacts/prepare_callbacks/checkpoint_dir]
+[2025-01-29 10:21:09,241: INFO: common: Directory created successfully: artifacts/prepare_callbacks/tensorboard_log_dir]
