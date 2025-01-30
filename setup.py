@@ -1,10 +1,10 @@
 import setuptools
 import os
 
-# with open("README.md", "r") as fh:
-#     long_description = fh.read()
-readme_file = "README.md" if os.path.exists("README.md") else None
-long_description = open(readme_file, "r").read() if readme_file else "A small package to classify butterflies"
+with open("README.md", "r") as fh:
+    long_description = fh.read()
+# readme_file = "README.md" if os.path.exists("README.md") else None
+# long_description = open(readme_file, "r").read() if readme_file else "A small package to classify butterflies"
 
 
 __version__ = '0.1.0'
