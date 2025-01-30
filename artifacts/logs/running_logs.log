@@ -1,65 +1,154 @@
-[2025-01-29 21:57:16,222: INFO: main: >>>>>>>>>> Data Ingestion Stage - Started <<<<<<<<<<]
-[2025-01-29 21:57:16,224: INFO: common: YAML file loaded successfully: config/config.yaml]
-[2025-01-29 21:57:16,225: INFO: common: YAML file loaded successfully: params.yaml]
-[2025-01-29 21:57:16,225: INFO: common: Directory created successfully: artifacts]
-[2025-01-29 21:57:16,225: INFO: common: Directory created successfully: artifacts/data_ingestion]
-[2025-01-29 21:57:16,242: INFO: credentials: Found credentials in shared credentials file: ~/.aws/credentials]
-[2025-01-29 21:57:16,327: INFO: data_ingestion: Source URL: <class 'str'>, value: s3://myflydatasetbucket/data.zip]
-[2025-01-29 21:57:16,327: INFO: data_ingestion: Downloading file from s3 bucket: myflydatasetbucket, object_key: data.zip]
-[2025-01-29 21:57:16,982: INFO: httpchecksum: Skipping checksum validation. Response did not contain one of the following algorithms: ['crc64nvme', 'crc32c', 'crc32', 'sha1', 'sha256'].]
-[2025-01-29 21:57:17,096: INFO: httpchecksum: Skipping checksum validation. Response did not contain one of the following algorithms: ['crc64nvme', 'crc32c', 'crc32', 'sha1', 'sha256'].]
-[2025-01-29 21:57:17,118: INFO: httpchecksum: Skipping checksum validation. Response did not contain one of the following algorithms: ['crc64nvme', 'crc32c', 'crc32', 'sha1', 'sha256'].]
-[2025-01-29 21:57:17,181: INFO: httpchecksum: Skipping checksum validation. Response did not contain one of the following algorithms: ['crc64nvme', 'crc32c', 'crc32', 'sha1', 'sha256'].]
-[2025-01-29 21:57:17,183: INFO: httpchecksum: Skipping checksum validation. Response did not contain one of the following algorithms: ['crc64nvme', 'crc32c', 'crc32', 'sha1', 'sha256'].]
-[2025-01-29 21:57:17,184: INFO: httpchecksum: Skipping checksum validation. Response did not contain one of the following algorithms: ['crc64nvme', 'crc32c', 'crc32', 'sha1', 'sha256'].]
-[2025-01-29 21:57:17,205: INFO: httpchecksum: Skipping checksum validation. Response did not contain one of the following algorithms: ['crc64nvme', 'crc32c', 'crc32', 'sha1', 'sha256'].]
-[2025-01-29 21:57:17,225: INFO: httpchecksum: Skipping checksum validation. Response did not contain one of the following algorithms: ['crc64nvme', 'crc32c', 'crc32', 'sha1', 'sha256'].]
-[2025-01-29 21:57:17,233: INFO: httpchecksum: Skipping checksum validation. Response did not contain one of the following algorithms: ['crc64nvme', 'crc32c', 'crc32', 'sha1', 'sha256'].]
-[2025-01-29 21:57:17,358: INFO: httpchecksum: Skipping checksum validation. Response did not contain one of the following algorithms: ['crc64nvme', 'crc32c', 'crc32', 'sha1', 'sha256'].]
-[2025-01-29 21:57:18,531: INFO: httpchecksum: Skipping checksum validation. Response did not contain one of the following algorithms: ['crc64nvme', 'crc32c', 'crc32', 'sha1', 'sha256'].]
-[2025-01-29 21:57:18,669: INFO: httpchecksum: Skipping checksum validation. Response did not contain one of the following algorithms: ['crc64nvme', 'crc32c', 'crc32', 'sha1', 'sha256'].]
-[2025-01-29 21:57:18,800: INFO: httpchecksum: Skipping checksum validation. Response did not contain one of the following algorithms: ['crc64nvme', 'crc32c', 'crc32', 'sha1', 'sha256'].]
-[2025-01-29 21:57:19,246: INFO: httpchecksum: Skipping checksum validation. Response did not contain one of the following algorithms: ['crc64nvme', 'crc32c', 'crc32', 'sha1', 'sha256'].]
-[2025-01-29 21:57:19,295: INFO: httpchecksum: Skipping checksum validation. Response did not contain one of the following algorithms: ['crc64nvme', 'crc32c', 'crc32', 'sha1', 'sha256'].]
-[2025-01-29 21:57:19,406: INFO: httpchecksum: Skipping checksum validation. Response did not contain one of the following algorithms: ['crc64nvme', 'crc32c', 'crc32', 'sha1', 'sha256'].]
-[2025-01-29 21:57:19,471: INFO: httpchecksum: Skipping checksum validation. Response did not contain one of the following algorithms: ['crc64nvme', 'crc32c', 'crc32', 'sha1', 'sha256'].]
-[2025-01-29 21:57:19,633: INFO: httpchecksum: Skipping checksum validation. Response did not contain one of the following algorithms: ['crc64nvme', 'crc32c', 'crc32', 'sha1', 'sha256'].]
-[2025-01-29 21:57:20,210: INFO: httpchecksum: Skipping checksum validation. Response did not contain one of the following algorithms: ['crc64nvme', 'crc32c', 'crc32', 'sha1', 'sha256'].]
-[2025-01-29 21:57:20,618: INFO: httpchecksum: Skipping checksum validation. Response did not contain one of the following algorithms: ['crc64nvme', 'crc32c', 'crc32', 'sha1', 'sha256'].]
-[2025-01-29 21:57:20,703: INFO: httpchecksum: Skipping checksum validation. Response did not contain one of the following algorithms: ['crc64nvme', 'crc32c', 'crc32', 'sha1', 'sha256'].]
-[2025-01-29 21:57:20,846: INFO: httpchecksum: Skipping checksum validation. Response did not contain one of the following algorithms: ['crc64nvme', 'crc32c', 'crc32', 'sha1', 'sha256'].]
-[2025-01-29 21:57:20,847: INFO: httpchecksum: Skipping checksum validation. Response did not contain one of the following algorithms: ['crc64nvme', 'crc32c', 'crc32', 'sha1', 'sha256'].]
-[2025-01-29 21:57:21,053: INFO: httpchecksum: Skipping checksum validation. Response did not contain one of the following algorithms: ['crc64nvme', 'crc32c', 'crc32', 'sha1', 'sha256'].]
-[2025-01-29 21:57:21,264: INFO: httpchecksum: Skipping checksum validation. Response did not contain one of the following algorithms: ['crc64nvme', 'crc32c', 'crc32', 'sha1', 'sha256'].]
-[2025-01-29 21:57:21,378: INFO: httpchecksum: Skipping checksum validation. Response did not contain one of the following algorithms: ['crc64nvme', 'crc32c', 'crc32', 'sha1', 'sha256'].]
-[2025-01-29 21:57:21,617: INFO: httpchecksum: Skipping checksum validation. Response did not contain one of the following algorithms: ['crc64nvme', 'crc32c', 'crc32', 'sha1', 'sha256'].]
-[2025-01-29 21:57:21,890: INFO: httpchecksum: Skipping checksum validation. Response did not contain one of the following algorithms: ['crc64nvme', 'crc32c', 'crc32', 'sha1', 'sha256'].]
-[2025-01-29 21:57:22,164: INFO: httpchecksum: Skipping checksum validation. Response did not contain one of the following algorithms: ['crc64nvme', 'crc32c', 'crc32', 'sha1', 'sha256'].]
-[2025-01-29 21:57:27,518: INFO: data_ingestion: File downloaded at: artifacts/data_ingestion/data.zip]
-[2025-01-29 21:57:30,304: INFO: main: >>>>>>>>>> Data Ingestion Stage - Completed <<<<<<<<<<]
-[2025-01-29 21:57:30,304: INFO: main: >>>>>>>>>> Prepare Base Model Stage - Started <<<<<<<<<<]
-[2025-01-29 21:57:30,306: INFO: common: YAML file loaded successfully: config/config.yaml]
-[2025-01-29 21:57:30,307: INFO: common: YAML file loaded successfully: params.yaml]
-[2025-01-29 21:57:30,307: INFO: common: Directory created successfully: artifacts]
-[2025-01-29 21:57:30,307: INFO: common: Directory created successfully: artifacts/prepare_base_model]
-[2025-01-29 21:57:30,526: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
-[2025-01-29 21:57:30,621: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
-[2025-01-29 21:57:30,658: INFO: main: >>>>>>>>>> Prepare Base Model Stage - Completed <<<<<<<<<<]
-[2025-01-29 21:57:30,659: INFO: main: >>>>>>>>>> Training - Started <<<<<<<<<<]
-[2025-01-29 21:57:30,660: INFO: common: YAML file loaded successfully: config/config.yaml]
-[2025-01-29 21:57:30,661: INFO: common: YAML file loaded successfully: params.yaml]
-[2025-01-29 21:57:30,661: INFO: common: Directory created successfully: artifacts]
-[2025-01-29 21:57:30,661: INFO: common: Directory created successfully: artifacts/prepare_callbacks/checkpoint_dir]
-[2025-01-29 21:57:30,661: INFO: common: Directory created successfully: artifacts/prepare_callbacks/tensorboard_log_dir]
-[2025-01-29 21:57:30,661: INFO: common: Directory created successfully: artifacts/training]
-[2025-01-29 21:57:30,740: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
-[2025-01-29 22:26:40,684: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
-[2025-01-29 22:26:40,735: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
-[2025-01-29 22:26:40,780: INFO: main: >>>>>>>>>> Training - Completed <<<<<<<<<<]
-[2025-01-29 22:26:40,780: INFO: main: >>>>>>>>>> Evaluation - Started <<<<<<<<<<]
-[2025-01-29 22:26:40,784: INFO: common: YAML file loaded successfully: config/config.yaml]
-[2025-01-29 22:26:40,785: INFO: common: YAML file loaded successfully: params.yaml]
-[2025-01-29 22:26:40,785: INFO: common: Directory created successfully: artifacts]
-[2025-01-29 22:26:40,866: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
-[2025-01-29 22:29:19,379: INFO: common: JSON file saved successfully: scores.json]
-[2025-01-29 22:29:19,380: INFO: main: >>>>>>>>>> Evaluation - Completed <<<<<<<<<<]
+[2025-01-30 08:26:52,611: INFO: stage_01_data_ingestion: >>>>>>>>>> Data Ingestion Stage - Started <<<<<<<<<<]
+[2025-01-30 08:26:52,613: INFO: common: YAML file loaded successfully: config/config.yaml]
+[2025-01-30 08:26:52,614: INFO: common: YAML file loaded successfully: params.yaml]
+[2025-01-30 08:26:52,615: INFO: common: Directory created successfully: artifacts]
+[2025-01-30 08:26:52,615: INFO: common: Directory created successfully: artifacts/data_ingestion]
+[2025-01-30 08:26:52,627: INFO: credentials: Found credentials in shared credentials file: ~/.aws/credentials]
+[2025-01-30 08:26:52,745: INFO: data_ingestion: Source URL: <class 'str'>, value: s3://myflydatasetbucket/data.zip]
+[2025-01-30 08:26:52,745: INFO: data_ingestion: Downloading file from s3 bucket: myflydatasetbucket, object_key: data.zip]
+[2025-01-30 08:26:53,354: INFO: httpchecksum: Skipping checksum validation. Response did not contain one of the following algorithms: ['crc64nvme', 'crc32c', 'crc32', 'sha1', 'sha256'].]
+[2025-01-30 08:26:53,520: INFO: httpchecksum: Skipping checksum validation. Response did not contain one of the following algorithms: ['crc64nvme', 'crc32c', 'crc32', 'sha1', 'sha256'].]
+[2025-01-30 08:26:53,525: INFO: httpchecksum: Skipping checksum validation. Response did not contain one of the following algorithms: ['crc64nvme', 'crc32c', 'crc32', 'sha1', 'sha256'].]
+[2025-01-30 08:26:53,526: INFO: httpchecksum: Skipping checksum validation. Response did not contain one of the following algorithms: ['crc64nvme', 'crc32c', 'crc32', 'sha1', 'sha256'].]
+[2025-01-30 08:26:53,562: INFO: httpchecksum: Skipping checksum validation. Response did not contain one of the following algorithms: ['crc64nvme', 'crc32c', 'crc32', 'sha1', 'sha256'].]
+[2025-01-30 08:26:53,581: INFO: httpchecksum: Skipping checksum validation. Response did not contain one of the following algorithms: ['crc64nvme', 'crc32c', 'crc32', 'sha1', 'sha256'].]
+[2025-01-30 08:26:53,584: INFO: httpchecksum: Skipping checksum validation. Response did not contain one of the following algorithms: ['crc64nvme', 'crc32c', 'crc32', 'sha1', 'sha256'].]
+[2025-01-30 08:26:53,608: INFO: httpchecksum: Skipping checksum validation. Response did not contain one of the following algorithms: ['crc64nvme', 'crc32c', 'crc32', 'sha1', 'sha256'].]
+[2025-01-30 08:26:53,621: INFO: httpchecksum: Skipping checksum validation. Response did not contain one of the following algorithms: ['crc64nvme', 'crc32c', 'crc32', 'sha1', 'sha256'].]
+[2025-01-30 08:26:53,632: INFO: httpchecksum: Skipping checksum validation. Response did not contain one of the following algorithms: ['crc64nvme', 'crc32c', 'crc32', 'sha1', 'sha256'].]
+[2025-01-30 08:26:54,956: INFO: httpchecksum: Skipping checksum validation. Response did not contain one of the following algorithms: ['crc64nvme', 'crc32c', 'crc32', 'sha1', 'sha256'].]
+[2025-01-30 08:26:55,399: INFO: httpchecksum: Skipping checksum validation. Response did not contain one of the following algorithms: ['crc64nvme', 'crc32c', 'crc32', 'sha1', 'sha256'].]
+[2025-01-30 08:26:55,807: INFO: httpchecksum: Skipping checksum validation. Response did not contain one of the following algorithms: ['crc64nvme', 'crc32c', 'crc32', 'sha1', 'sha256'].]
+[2025-01-30 08:26:55,884: INFO: httpchecksum: Skipping checksum validation. Response did not contain one of the following algorithms: ['crc64nvme', 'crc32c', 'crc32', 'sha1', 'sha256'].]
+[2025-01-30 08:26:55,903: INFO: httpchecksum: Skipping checksum validation. Response did not contain one of the following algorithms: ['crc64nvme', 'crc32c', 'crc32', 'sha1', 'sha256'].]
+[2025-01-30 08:26:55,971: INFO: httpchecksum: Skipping checksum validation. Response did not contain one of the following algorithms: ['crc64nvme', 'crc32c', 'crc32', 'sha1', 'sha256'].]
+[2025-01-30 08:26:56,173: INFO: httpchecksum: Skipping checksum validation. Response did not contain one of the following algorithms: ['crc64nvme', 'crc32c', 'crc32', 'sha1', 'sha256'].]
+[2025-01-30 08:26:56,796: INFO: httpchecksum: Skipping checksum validation. Response did not contain one of the following algorithms: ['crc64nvme', 'crc32c', 'crc32', 'sha1', 'sha256'].]
+[2025-01-30 08:26:56,845: INFO: httpchecksum: Skipping checksum validation. Response did not contain one of the following algorithms: ['crc64nvme', 'crc32c', 'crc32', 'sha1', 'sha256'].]
+[2025-01-30 08:26:57,356: INFO: httpchecksum: Skipping checksum validation. Response did not contain one of the following algorithms: ['crc64nvme', 'crc32c', 'crc32', 'sha1', 'sha256'].]
+[2025-01-30 08:26:57,518: INFO: httpchecksum: Skipping checksum validation. Response did not contain one of the following algorithms: ['crc64nvme', 'crc32c', 'crc32', 'sha1', 'sha256'].]
+[2025-01-30 08:26:57,840: INFO: httpchecksum: Skipping checksum validation. Response did not contain one of the following algorithms: ['crc64nvme', 'crc32c', 'crc32', 'sha1', 'sha256'].]
+[2025-01-30 08:26:57,886: INFO: httpchecksum: Skipping checksum validation. Response did not contain one of the following algorithms: ['crc64nvme', 'crc32c', 'crc32', 'sha1', 'sha256'].]
+[2025-01-30 08:26:58,243: INFO: httpchecksum: Skipping checksum validation. Response did not contain one of the following algorithms: ['crc64nvme', 'crc32c', 'crc32', 'sha1', 'sha256'].]
+[2025-01-30 08:26:58,259: INFO: httpchecksum: Skipping checksum validation. Response did not contain one of the following algorithms: ['crc64nvme', 'crc32c', 'crc32', 'sha1', 'sha256'].]
+[2025-01-30 08:26:58,374: INFO: httpchecksum: Skipping checksum validation. Response did not contain one of the following algorithms: ['crc64nvme', 'crc32c', 'crc32', 'sha1', 'sha256'].]
+[2025-01-30 08:26:58,386: INFO: httpchecksum: Skipping checksum validation. Response did not contain one of the following algorithms: ['crc64nvme', 'crc32c', 'crc32', 'sha1', 'sha256'].]
+[2025-01-30 08:26:58,404: INFO: httpchecksum: Skipping checksum validation. Response did not contain one of the following algorithms: ['crc64nvme', 'crc32c', 'crc32', 'sha1', 'sha256'].]
+[2025-01-30 08:26:58,827: INFO: httpchecksum: Skipping checksum validation. Response did not contain one of the following algorithms: ['crc64nvme', 'crc32c', 'crc32', 'sha1', 'sha256'].]
+[2025-01-30 08:27:01,131: INFO: data_ingestion: File downloaded at: artifacts/data_ingestion/data.zip]
+[2025-01-30 08:27:04,080: INFO: stage_01_data_ingestion: >>>>>>>>>> Data Ingestion Stage - Completed <<<<<<<<<<]
+[2025-01-30 08:27:13,245: INFO: stage_02_prepare_base_model: ***************]
+[2025-01-30 08:27:13,245: INFO: stage_02_prepare_base_model: >>>>>>>>>> Starting Prepare Base Model <<<<<<<<<<]
+[2025-01-30 08:27:13,247: INFO: common: YAML file loaded successfully: config/config.yaml]
+[2025-01-30 08:27:13,247: INFO: common: YAML file loaded successfully: params.yaml]
+[2025-01-30 08:27:13,247: INFO: common: Directory created successfully: artifacts]
+[2025-01-30 08:27:13,248: INFO: common: Directory created successfully: artifacts/prepare_base_model]
+[2025-01-30 08:27:13,479: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-01-30 08:27:13,534: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-01-30 08:27:13,573: INFO: stage_02_prepare_base_model: >>>>>>>>>> Prepare Base Model completed successfully.
+
+<<<<<<<<<<]
+[2025-01-30 08:27:18,127: INFO: stage_03_training: >>>>>>>>>> Training - Started <<<<<<<<<<]
+[2025-01-30 08:27:18,129: INFO: common: YAML file loaded successfully: config/config.yaml]
+[2025-01-30 08:27:18,130: INFO: common: YAML file loaded successfully: params.yaml]
+[2025-01-30 08:27:18,130: INFO: common: Directory created successfully: artifacts]
+[2025-01-30 08:27:18,130: INFO: common: Directory created successfully: artifacts/prepare_callbacks/checkpoint_dir]
+[2025-01-30 08:27:18,130: INFO: common: Directory created successfully: artifacts/prepare_callbacks/tensorboard_log_dir]
+[2025-01-30 08:27:18,131: INFO: common: Directory created successfully: artifacts/training]
+[2025-01-30 08:27:18,317: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-01-30 08:55:26,576: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-01-30 08:55:26,629: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-01-30 08:55:26,676: INFO: stage_03_training: >>>>>>>>>> Training - Completed <<<<<<<<<<]
+[2025-01-30 08:55:31,839: INFO: stage_04_evaluation: >>>>>>>>>> Evaluation - Started <<<<<<<<<<]
+[2025-01-30 08:55:31,841: INFO: common: YAML file loaded successfully: config/config.yaml]
+[2025-01-30 08:55:31,842: INFO: common: YAML file loaded successfully: params.yaml]
+[2025-01-30 08:55:31,842: INFO: common: Directory created successfully: artifacts]
+[2025-01-30 08:55:31,971: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-01-30 08:58:01,194: INFO: common: JSON file saved successfully: scores.json]
+[2025-01-30 08:58:01,194: INFO: stage_04_evaluation: >>>>>>>>>> Evaluation - Completed <<<<<<<<<<]
+[2025-01-30 09:02:56,057: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.68:5000]
+[2025-01-30 09:02:56,057: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-01-30 09:04:10,077: INFO: _internal: 127.0.0.1 - - [30/Jan/2025 09:04:10] "GET / HTTP/1.1" 200 -]
+[2025-01-30 09:04:59,497: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-01-30 09:04:59,702: INFO: _internal: 127.0.0.1 - - [30/Jan/2025 09:04:59] "POST /predict HTTP/1.1" 200 -]
+[2025-01-30 09:27:52,932: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.68:5000]
+[2025-01-30 09:27:52,932: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-01-30 09:27:58,126: INFO: _internal: 127.0.0.1 - - [30/Jan/2025 09:27:58] "GET / HTTP/1.1" 200 -]
+[2025-01-30 09:28:13,248: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-01-30 09:28:13,457: INFO: _internal: 127.0.0.1 - - [30/Jan/2025 09:28:13] "POST /predict HTTP/1.1" 200 -]
+[2025-01-30 09:28:22,705: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-01-30 09:28:22,894: INFO: _internal: 127.0.0.1 - - [30/Jan/2025 09:28:22] "POST /predict HTTP/1.1" 200 -]
+[2025-01-30 09:28:28,731: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-01-30 09:28:28,918: INFO: _internal: 127.0.0.1 - - [30/Jan/2025 09:28:28] "POST /predict HTTP/1.1" 200 -]
+[2025-01-30 09:34:48,669: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.68:5000]
+[2025-01-30 09:34:48,669: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-01-30 09:34:53,342: INFO: _internal: 127.0.0.1 - - [30/Jan/2025 09:34:53] "GET / HTTP/1.1" 200 -]
+[2025-01-30 09:35:02,258: INFO: _internal: 127.0.0.1 - - [30/Jan/2025 09:35:02] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -]
+[2025-01-30 09:39:17,559: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.68:5000]
+[2025-01-30 09:39:17,559: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-01-30 09:39:20,581: INFO: _internal: 127.0.0.1 - - [30/Jan/2025 09:39:20] "GET / HTTP/1.1" 200 -]
+[2025-01-30 09:39:35,986: INFO: _internal: 127.0.0.1 - - [30/Jan/2025 09:39:35] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -]
+[2025-01-30 09:41:22,190: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.68:5000]
+[2025-01-30 09:41:22,190: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-01-30 09:41:24,666: INFO: _internal: 127.0.0.1 - - [30/Jan/2025 09:41:24] "GET / HTTP/1.1" 200 -]
+[2025-01-30 09:41:35,631: INFO: _internal: 127.0.0.1 - - [30/Jan/2025 09:41:35] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -]
+[2025-01-30 09:49:11,593: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.68:5000]
+[2025-01-30 09:49:11,593: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-01-30 09:49:16,668: INFO: _internal: 127.0.0.1 - - [30/Jan/2025 09:49:16] "GET / HTTP/1.1" 200 -]
+[2025-01-30 09:49:28,912: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/flyenv/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/opt/anaconda3/envs/flyenv/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/opt/anaconda3/envs/flyenv/lib/python3.9/site-packages/flask_cors/extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/opt/anaconda3/envs/flyenv/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/anaconda3/envs/flyenv/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/opt/anaconda3/envs/flyenv/lib/python3.9/site-packages/flask_cors/decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "/Users/shrey/Desktop/github/butterfly_classifier/app.py", line 47, in predict
+    file.save(filepath)
+  File "/opt/anaconda3/envs/flyenv/lib/python3.9/site-packages/werkzeug/datastructures/file_storage.py", line 129, in save
+    dst = open(dst, "wb")
+FileNotFoundError: [Errno 2] No such file or directory: './uploaded_images/Image_1.jpg'
+[2025-01-30 09:49:28,919: INFO: _internal: 127.0.0.1 - - [30/Jan/2025 09:49:28] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2025-01-30 09:50:58,998: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.68:5000]
+[2025-01-30 09:50:58,998: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-01-30 09:51:00,609: INFO: _internal: 127.0.0.1 - - [30/Jan/2025 09:51:00] "GET / HTTP/1.1" 200 -]
+[2025-01-30 09:51:08,676: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-01-30 09:51:08,885: INFO: _internal: 127.0.0.1 - - [30/Jan/2025 09:51:08] "POST /predict HTTP/1.1" 200 -]
+[2025-01-30 09:51:29,361: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-01-30 09:51:29,556: INFO: _internal: 127.0.0.1 - - [30/Jan/2025 09:51:29] "POST /predict HTTP/1.1" 200 -]
+[2025-01-30 09:53:04,065: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.68:5000]
+[2025-01-30 09:53:04,065: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-01-30 09:53:05,268: INFO: _internal: 127.0.0.1 - - [30/Jan/2025 09:53:05] "GET / HTTP/1.1" 200 -]
+[2025-01-30 09:53:21,047: INFO: _internal: 127.0.0.1 - - [30/Jan/2025 09:53:21] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -]
+[2025-01-30 09:53:21,191: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-01-30 09:53:21,392: INFO: _internal: 127.0.0.1 - - [30/Jan/2025 09:53:21] "POST /predict HTTP/1.1" 200 -]
